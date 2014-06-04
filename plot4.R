@@ -1,3 +1,7 @@
+## Exploratory Data Analysis
+## fladei
+## 06/03/2014
+
 plot4 <- function(file="household_power_consumption.txt") {
     data<- read.table(file,sep=";",na.strings="?", header=T)
     data<- data[data$Date=="1/2/2007" | data$Date=="2/2/2007",]
